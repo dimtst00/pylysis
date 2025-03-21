@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from telecom_analyzer import main, validate_traffic_file, validate_tags_file
+from telanlys import main, validate_traffic_file, validate_tags_file
 import os
 
 st.title("Telecom Testing Number Analyzer")
